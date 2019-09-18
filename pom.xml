@@ -54,6 +54,13 @@
 			<artifactId>javax.inject</artifactId>
 			<version>1</version>
 		</dependency>
+
+		<!-- Metric -->
+		<dependency>
+			<groupId>io.micrometer</groupId>
+			<artifactId>micrometer-registry-prometheus</artifactId>
+			<version>1.2.1</version>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
